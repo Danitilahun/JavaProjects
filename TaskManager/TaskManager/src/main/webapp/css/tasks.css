@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+
+/* Add your styles here */
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+#content{
+	width: 80%;
+	margin:1rem auto
+}
+
+h1 {
+    color: #333;
+}
+
+.searchInput {
+        padding: 8px;
+        margin-bottom: 10px;
+        width: 200px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+.create {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input[type="text"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Add your existing styles here */
+
+/* Style for the delete and edit buttons */
+/* General button styles */
+td.action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+td.action-buttons form,
+td.action-buttons div {
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+td.action-buttons button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+td.action-buttons form button,
+td.action-buttons div a button {
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to both buttons */
+}
+
+.complete{
+	background-color: #4caf50;
+	color: white;
+}
+
+ 
+td.action-buttons form button {
+    opacity: 0.7; 
+    cursor: not-allowed; 
+   
+}
+
+.delete {
+    background-color: #ff5858; /* Red color for delete button */
+}
+
+td.action-buttons div a button {
+    background-color: #4caf50;
+    padding: 5px 10px;
+    cursor: pointer; 
+}
